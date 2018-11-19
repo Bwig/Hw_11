@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+
+	<title>Landing Page</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+
+
+			<div class="navbar-header">
+				<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html">Latitudes</a>
+			</div>
+		</div>
+
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Plots <span class="caret"></span></a>
+
+					<ul class="dropdown-menu">
+						<li>
+							<a href="temp.html">Temperature</a>
+						</li>
+
+
+						<li>
+							<a href="humid.html">Humidity</a>
+						</li>
+
+
+						<li>
+							<a href="visualizations/cloud.html">Cloudiness</a>
+						</li>
+
+
+						<li>
+							<a href="wind.html">Winds</a>
+						</li>
+					</ul>
+				</li>
+
+
+				<li>
+					<a href="comparison.html">Comparision</a>
+				</li>
+
+
+				<li>
+					<a href="data.html">Data</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<div class="container">
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h2>Cloudiness</h2>
+						</div>
+						<hr>
+
+						<a href="temp.html"><img alt="" class="img img-responsive" src="assets/images/Fig3.png" style="width:80%"></a>
+                        <p>There seems to be no strong relationship between latitude and cloudiness but there are many cities with 0% and between 75%-95% of cloudiness.</p>
+                    <br>        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                        <div class="panel-body">                                    
+                            <h2>Visualizations</h2>
+                            <hr>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="visualizations/temp.html"><img class = "img img-responsive" src="assets/images/Fig1.png" style="width:100%" alt=""></a></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="visualizations/humid.html"><img class = "img img-responsive" src="assets/images/Fig2.png" style="width:100%" alt=""></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="visualizations/cloud.html"><img class = "img img-responsive" src="assets/images/Fig3.png" style="width:100%" alt=""></a></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="visualizations/wind.html"><img class = "img img-responsive" src="assets/images/Fig4.png" style="width:100%" alt=""></a></div>
+                            </div>
+                                
+                        </div>
+                	</div>
+                    </div>     
+            </div>    
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+	</script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+	</script>
+</body>
+</html>
